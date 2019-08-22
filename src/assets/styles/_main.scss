@@ -1,0 +1,27 @@
+// Base site color
+@import 'color';
+
+// Base site font property
+@import 'font';
+
+// Base spacing like, [padding, margin, height, width, ...]
+@import 'spacing';
+
+// Base site animations
+@import 'animation';
+
+body {
+    background-color: $body-background-color;
+    direction: ltr;
+    margin: 0;
+    color: $text-color-base;
+    text-align: left;
+    font-size: $font-size-base;
+    font-weight: $font-weight-base;
+    font-family: $font-family-base;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

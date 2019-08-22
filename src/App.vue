@@ -3,7 +3,9 @@
     <router-view/>
   </div>
 </template>
-
-<style lang="scss">
-
-</style>
+<script>
+import './assets/styles/app.scss'
+export default {
+  
+}
+</script>
